@@ -20,7 +20,7 @@ Brown,  Black,   Brown,           Gold
  1 (Color band)      0 (color band)     10(Multiplier- brown)  Tolerance (+-5% gold)
  
 **b. What do you have to do to light your LED?**
-First, connect the ardunio board to USB (5V) and then 5v pin connects via wire to red rail of the breadboard to connect to a button switch. The button switch connects with the the LED light and the other end of the LED light connects with a registor (100 Ohms). The registor is necessary to avoid shorting to the ground, as a resistor to the 5V. The other end of the registor connects to the blue rail of the breadboard which connects back to the GND pin.  When pressing the Switch button, the current would run through the LED and LED would light up. When releasing the Switch button, the LED would turn off.
+First, connect the ardunio board to USB (5V) and then 5v pin connects via wire to red rail of the breadboard to connect to a button switch. The button switch connects with the the LED light and the other end of the LED light connects with a registor (100 Ohms). The registor is necessary to avoid shorting to the ground, as a resistor to the 5V. The other end of the registor connects to the blue rail of the breadboard which connects back to the GND pin.  When pressing the Switch button, the current would run through the LED and LED would light up. When releasing the Switch button, the LED would turn off.  Registor is a pull down resistor here because it is connected to the ground and holds the logic signal near zero volts when no other active device is connected. 
 
 ## Part C. Blink a LED using Arduino
 
