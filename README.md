@@ -63,12 +63,13 @@ Resistor after the LED to pull down the current to the Ground.
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 Blink on for 1 second and then Blink on for 5 seconds, alternatively, and then loop likewise afterwards.
 
+[Code- blinking](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/Blink1.ino) 31 Aug2018
+
+
+
 ### 2. Blink your LED
 
 **Make a video of your LED blinking, and add it to your lab submission.**
-
-[Video - blinking](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/Blink1.ino) 31 Aug2018
-
 
 ## Part D. Manually fade an LED
 
