@@ -70,6 +70,7 @@ Blink on for 1 second and then Blink on for 5 seconds, alternatively, and then l
 ### 2. Blink your LED
 
 **Make a video of your LED blinking, and add it to your lab submission.**
+[My Led- blinking] (https://youtu.be/FVidNY44AdY) LED blinking
 
 ## Part D. Manually fade an LED
 
