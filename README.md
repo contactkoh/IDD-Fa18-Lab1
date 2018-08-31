@@ -67,7 +67,7 @@ Blink on for 1 second and then Blink on for 5 seconds, alternatively, and then l
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
+[Video - blinking](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2018Fall/Slides/01%20Circuits%20%26%20Schematics.pdf) 31 Aug2018
 
 
 ## Part D. Manually fade an LED
