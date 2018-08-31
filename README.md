@@ -16,8 +16,8 @@ We've copied the questions from the lab here. Answer them below!
 ## Part B. Manually Blink a LED
 
 **a. What color stripes are on a 100 Ohm resistor?**
-Brown, Black, Brown, Gold
-
+Brown,  Black,   Brown,           Gold
+ 1       0      10(Multiplier)
  
 **b. What do you have to do to light your LED?**
 
