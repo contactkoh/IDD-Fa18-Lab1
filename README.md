@@ -28,15 +28,40 @@ First, connect the ardunio board to USB (5V) and then 5v pin connects via wire t
 ### 1. Blink the on-board LED
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
+digitalWrite as shown below:  
+
+//setup to pinMode
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+// turn the LED on  (HIGH voltage level)
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+}
 
 **b. What line(s) of code do you need to change to change the rate of blinking?**
+delay argument value as shown below:  the lower --> the quicker rate of blinking
 
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
+}
 **c. What circuit element would you want to add to protect the board and external LED?**
- 
+Resistor after the LED to pull down the current to the Ground. 
+
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
+15 ms.  My eyes can see the LED blinking and shaking. 
+
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
-
+Blink on for 1 second and then Blink on for 5 seconds, alternatively, and then loop likewise afterwards.
 
 ### 2. Blink your LED
 
