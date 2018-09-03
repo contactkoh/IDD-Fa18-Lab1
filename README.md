@@ -78,9 +78,13 @@ Yes. Looking at the Voltage Divider Schematics, the potentiometer are connected 
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
-
+I had to change the int pin from 9 to 11 because my LED is connected to pin 11 at arduino.
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
+alalogWrite() writes and requests for value between 0-255 and with 255 being 100% duty cycle(always on), 50% (half the time on) and 0%(not on at tll), etc. to use PWM (Pulse Width Modulation) as an analog ouput to produce analog results (e.g. varying the brightness of LED, etc)
+[Arduino] (https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/) *source: ardunino web site
+
+digitalWrite() writes HIGH (voltage high) or LOW (GND) to produce either on or off (not analog) effects. 
 
 
 ## Part F. FRANKENLIGHT!!!
