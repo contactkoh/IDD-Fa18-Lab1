@@ -112,15 +112,26 @@ It doesn't seem any information is stored in the mouse. It may be transmitted to
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
 **Describe what you did here.**
+[Code- blinking](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/light1.jpg)
+[Code- blinking](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/light2.jpg)
+
 Having very little experience with electronics at all, 
 I tried to find the electricity running circuit on the board of the mouse. 
 Unfortunately, I could not really figure out from the tiny circuit board, where the current is running and what is happening in different chips, etc. 
-I used the Arduino board to source the power into the battery
+What I could tackle was to look at the power voltage (+) running into the switch (on/off) of the mouse. 
+So I removed the battery, connect the power from arduino into the mouse battery connector. 
+In the switch of the mouse, I noticed that on/off button is pushed up and down, which would connect the two pins on the board. 
+That's where I placed my LED and LED lighted up. 
+I observed the optical sensor LED of the mouse which was flickering as well. (Perhaps taking the snapshots to detect movements?) 
+The LED I placed also flickered similar to the opitcal sensor LED of the mouse.  
+It was difficult to physically lay down the LED which does not quite fit into the mouse circuit board, so I had to hold the LED by hand. In the future, I may have to think of the physical placement holders, etc. 
 
 ### 3. Build your light!
 
 **Make a video showing off your Frankenlight.**
 
-https://youtu.be/KjgJuvxJ9EA
+[video] https://youtu.be/KjgJuvxJ9EA  Video
+
 
 **Include any schematics or photos in your lab write-up.**
+[Code- blinking](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/light3.jpg)
