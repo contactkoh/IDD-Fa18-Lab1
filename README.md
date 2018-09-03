@@ -75,7 +75,7 @@ Blink on for 1 second and then Blink on for 5 seconds, alternatively, and then l
 Yes.  Looking at the Voltage Divider Schematics, the 3 pins of potentiometer are connected to: one to 5 V (V in), middle one to the resistor and LED (V out) and the last one to the Ground. So when I turn the knob on the potentiometer to one extreme, the V out toward the LED is intensified, vice versa. 
 
 
-![alt text](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/board1.jpg)
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/potentiometer.jpg)
 
 
 
