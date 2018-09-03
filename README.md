@@ -10,8 +10,8 @@ We've copied the questions from the lab here. Answer them below!
 
 ## Part A. Set Up a Breadboard
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/board1.jpg)
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/board2.jpg)
 
 
 ## Part B. Manually Blink a LED
