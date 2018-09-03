@@ -90,8 +90,8 @@ digitalWrite() writes HIGH (voltage high) or LOW (GND) to produce either on or o
 ## Part F. FRANKENLIGHT!!!
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
-[Code- blinking](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/mouse1.jpg)
-[Code- blinking](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/mouse2.jpg)
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/mouse1.jpg)
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/mouse2.jpg)
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 I chose my bluetooth mouse. Opening it and looking at the front and back of the circuit board, it seemed to me that the 1.5V AA battery flows into (+) the switch and then into some sort of a squire-sized microprocessor chip(?) located in the middle. The microprocessor is attached with the optical sensor(?) on the back/bottom side of the circuit board.  I am new to the electronics but it seems that then, the optical sensor reads values of movement into the microprocessor and calculates that into machine-readable digital form to represent the position of the mouse in X-Y coordinates.
@@ -112,8 +112,8 @@ It doesn't seem any information is stored in the mouse. It may be transmitted to
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
 **Describe what you did here.**
-[Code- blinking](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/light1.jpg)
-[Code- blinking](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/light2.jpg)
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/light1.jpg)
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/light2.jpg)
 
 Having very little experience with electronics at all, 
 I tried to find the electricity running circuit on the board of the mouse. 
@@ -134,4 +134,4 @@ It was difficult to physically lay down the LED which does not quite fit into th
 
 
 **Include any schematics or photos in your lab write-up.**
-[Code- blinking](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/light3.jpg)
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/light3.jpg)
