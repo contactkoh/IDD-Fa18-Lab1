@@ -82,7 +82,7 @@ I had to change the int pin from 9 to 11 because my LED is connected to pin 11 a
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 alalogWrite() writes and requests for value between 0-255 and with 255 being 100% duty cycle(always on), 50% (half the time on) and 0%(not on at tll), etc. to use PWM (Pulse Width Modulation) as an analog ouput to produce analog results (e.g. varying the brightness of LED, etc)
-[Arduino] (https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/) *source: ardunino web site
+[Arduino] (https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/) *reference: ardunino web site
 
 digitalWrite() writes HIGH (voltage high) or LOW (GND) to produce either on or off (not analog) effects. 
 
@@ -90,21 +90,37 @@ digitalWrite() writes HIGH (voltage high) or LOW (GND) to produce either on or o
 ## Part F. FRANKENLIGHT!!!
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
+[Code- blinking](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/mouse1.jpg)
+[Code- blinking](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/mouse2.jpg)
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
+I chose my bluetooth mouse. Opening it and looking at the front and back of the circuit board, it seemed to me that the 1.5V AA battery flows into (+) the switch and then into some sort of a squire-sized microprocessor chip(?) located in the middle. The microprocessor is attached with the optical sensor(?) on the back/bottom side of the circuit board.  I am new to the electronics but it seems that then, the optical sensor reads values of movement into the microprocessor and calculates that into machine-readable digital form to represent the position of the mouse in X-Y coordinates.
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
+There is LED and light picking up sensor in the center of the bottom side of the mouse. 
+The LED emits light and the light bounces back from the surface which is picked up by the sensor located just next to the LED.
+The LED light and light picking up sensor working together takes the pictures in a given time to figure out how the movement is made. The sensed information seems to feed into the image processing chip within the mouse (although I cannot figure out where exactly it is..) 
+[Arduino] (https://www.pctechguide.com/input-devices/optical-mice)  *reference: web site
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
+One 1.5V AA battery is housed in the mouse itself which runs into (+) the switch in the mouse. 
+I could not figure out how the circuit board is designed and it was so small to see the lines running on the board, but there is a GND pin that is located next to the optical sensor which seems to indicate that the voltage ends around there after running through the board. 
 
 **d. Is information stored in your device? Where? How?**
+It doesn't seem any information is stored in the mouse. It may be transmitted to the computer to translate into X-Y coordinates perhaps. 
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
 **Describe what you did here.**
+Having very little experience with electronics at all, 
+I tried to find the electricity running circuit on the board of the mouse. 
+Unfortunately, I could not really figure out from the tiny circuit board, where the current is running and what is happening in different chips, etc. 
+I used the Arduino board to source the power into the battery
 
 ### 3. Build your light!
 
 **Make a video showing off your Frankenlight.**
+
+https://youtu.be/KjgJuvxJ9EA
 
 **Include any schematics or photos in your lab write-up.**
