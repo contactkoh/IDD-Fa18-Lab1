@@ -74,6 +74,11 @@ Blink on for 1 second and then Blink on for 5 seconds, alternatively, and then l
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
 Yes.  Looking at the Voltage Divider Schematics, the 3 pins of potentiometer are connected to: one to 5 V (V in), middle one to the resistor and LED (V out) and the last one to the Ground. So when I turn the knob on the potentiometer to one extreme, the V out toward the LED is intensified, vice versa. 
 
+
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab1/blob/master/board1.jpg)
+
+
+
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
